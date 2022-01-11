@@ -15,6 +15,10 @@ window.addEventListener("click", function () {
   if (ballsNum <= 150) ballsNum = ballsNum + ballsNum / 4;
 });
 
+window.addEventListener('dblclick',function name() {
+  window.location.reload();
+})
+
 // Переменные.
 var mouse = {
   x: htmlCanvas001.width / 2,
